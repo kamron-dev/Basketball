@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="scoreboard">
+                    <h1 class="home-score" id="home-score-board">0</h1>
+                </div>
+                <div class="add-points-div">
+                    <button class="add-points-btn" onclick="homePlusOne()">+1</button>
+                    <button class="add-points-btn" onclick="homePlusTwo()">+2</button>
+                    <button class="add-points-btn" onclick="homePlusThree()">+3</button>
+                </div>
+            </div>
+            
+        <div>
+                <h3>GUEST</h3>
+                <div class="g-scoreboard">
+                    <h1 class="guest-score" id="guest-score-board">0</h1>
+                </div>
+                <div class="add-points-div">
+                    <button class="add-points-btn" onclick="guestPlusOne()">+1</button>
+                    <button class="add-points-btn" onclick="guestPlusTwo()">+2</button>
+                    <button class="add-points-btn" onclick="guestPlusThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="newdiv">
+            <button class="new-game-btn" onclick="newGame()">NEW GAME</button>
+        </div>    
+        <script src="index.js"></script>
+    </body>
+</html>
